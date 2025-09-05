@@ -58,9 +58,7 @@ const StudentVerification: React.FC = () => {
   };
 
   return (
-    <div
-      className="min-h-screen flex flex-col items-center justify-center px-4"
-    >
+    <div className="min-h-screen flex flex-col items-center justify-center px-4">
       {/* Logo et titre alignés sur une ligne */}
       <div className="flex items-center justify-center gap-4 mb-3">
         <img
@@ -77,9 +75,9 @@ const StudentVerification: React.FC = () => {
 
       {/* Formulaire */}
       <div className="w-full max-w-md bg-white p-5 rounded-xl shadow-lg">
-      <div className="bg-blue-100 text-blue-700 px-6 py-1 mb-2 rounded-lg text-lg font-medium w-max mx-auto">
-        Vérification de la carte étudiant
-      </div>
+        <div className="bg-blue-100 text-blue-700 px-6 py-1 mb-2 rounded-lg text-lg font-medium w-max mx-auto">
+          Vérification de la carte étudiant
+        </div>
         <label htmlFor="ine" className="sr-only">
           INE
         </label>

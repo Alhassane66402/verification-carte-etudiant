@@ -3,11 +3,11 @@ import StudentVerification from "./components/StudentVerification";
 
 function App() {
   return (
-    <div className="relative min-h-screen flex items-center justify-center">
+    <div className="relative min-h-screen bg-gray-700 flex items-center justify-center">
       {/* Image de fond */}
       <div
         className="absolute inset-1 bg-center"
-        style={{ backgroundImage: "url('/Logo_MESRSI.webp')" }}
+        style={{ backgroundImage: "url('/logo_MESRSI.png')" }}
       />
       
       {/* Overlay sombre semi-transparent */}
