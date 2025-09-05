@@ -19,7 +19,7 @@ const StudentCard: React.FC<Props> = ({ student }) => {
     <div className="mt-4 w-full max-w-lg bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-200">
       {/* Header bleu   */}
       <div className="bg-blue-700 text-white flex items-center justify-between px-4 py-3">
-        <h2 className="text-lg font-bold">Carte Étudiant</h2>
+        <h2 className="text-lg font-bold uppercase">Carte Étudiant</h2>
         <img
           src="/parcoursup.png"
           alt="Logo"
