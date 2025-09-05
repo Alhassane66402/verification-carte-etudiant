@@ -74,12 +74,12 @@ const StudentVerification: React.FC = () => {
           </h1>
         </div>
       </div>
-      <div className="bg-blue-100 text-blue-700 px-6 py-1 mb-3 rounded-lg text-lg font-medium w-max mx-auto">
-        Vérification de la carte étudiant
-      </div>
 
       {/* Formulaire */}
-      <div className="w-full max-w-md bg-white p-6 rounded-xl shadow-lg">
+      <div className="w-full max-w-md bg-white p-5 rounded-xl shadow-lg">
+      <div className="bg-blue-100 text-blue-700 px-6 py-1 mb-2 rounded-lg text-lg font-medium w-max mx-auto">
+        Vérification de la carte étudiant
+      </div>
         <label htmlFor="ine" className="sr-only">
           INE
         </label>

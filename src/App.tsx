@@ -6,7 +6,7 @@ function App() {
     <div className="relative min-h-screen flex items-center justify-center">
       {/* Image de fond */}
       <div
-        className="absolute inset-1 bg-contain"
+        className="absolute inset-1 bg-center"
         style={{ backgroundImage: "url('/Logo_MESRSI.webp')" }}
       />
       
